@@ -10,7 +10,7 @@ const PlayerContextProvider = (props) => {
     const seekBar = useRef();
 
 
-    const url = 'http://localhost:4000'
+    const url = 'https://spotify-clone-bi0n.onrender.com'
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData, setAlbumsData] = useState([]);
